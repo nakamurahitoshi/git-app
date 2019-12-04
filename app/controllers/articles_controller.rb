@@ -6,6 +6,7 @@ class ArticlesController < ApplicationController
   def index
     @articles = Article.all
     
+    
   end
 
   # GET /articles/1
